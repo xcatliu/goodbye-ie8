@@ -2,7 +2,7 @@
 
 > As [more and more JavaScript frameworks and libraries dropped IE8 support](#timeline), It's time to say goodbye to IE8.
 
-Let's work together to promote the evolution of the browser!
+Let's work together to promote the evolution of the browsers!
 
 ## What to Do
 
