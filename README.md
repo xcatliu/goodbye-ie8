@@ -6,7 +6,7 @@ Let's work together to promote the evolution of the browser!
 
 ## What to Do
 
-### 1. Add alert message for IE8 and lower users.
+### 1. Add alert message for IE8 users
 
 Copy this code as the first child element of `<body>`:
 
