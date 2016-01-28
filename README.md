@@ -12,7 +12,7 @@ Copy this code as the first child element of `<body>`:
 
 ```html
 <!--[if lt IE 9]>
-  <p style="text-align: center!important; margin: 0 0 0.5em!important; background-color: #d9534f!important; color: #fff!important; padding: 0.5em 1em!important;">You are using an <strong>outdated</strong> browser. Please <a style="color: #fff!important" href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <p style="text-align: center!important; margin: 0 0 0.5em!important; background-color: #d9534f!important; color: #fff!important; padding: 0.5em 1em!important;">You are using an <strong>outdated</strong> browser. Please <a style="color: #fff!important" href="http://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 ```
 
@@ -24,13 +24,17 @@ Code was forked from https://github.com/h5bp/html5-boilerplate/blob/master/src/i
 
 [CSS Hacks][Browser Specific Hacks] used to be an effective way to keep browsers looks good, now let's drop them.
 
-// TODO: try css preparser like sass or less with postcss plugins.
+// TODO: Best Practice: try css preparsers like [sass](http://sass-lang.com/) or [less](http://lesscss.org/) with [postcss](https://github.com/postcss/postcss) plugins.
 
-### 3. Use ES5 features freely
+### 3. Feel free to use ES5 features
 
-According to [Compatibility Table for ES5], IE9+ supports all ES5 features. It's safe to use them without [es5-shim]
+According to [Compatibility Table for ES5], IE9+ supports all ES5 features. It's safe to use them without [es5-shim](https://github.com/es-shims/es5-shim).
 
-### 4. And else?
+### 4. Remove HTML5 Shiv
+
+The [HTML5 Shiv](https://github.com/aFarkas/html5shiv) enables use of HTML5 sectioning elements in IE8. It's not necessary now.
+
+### 5. And else?
 
 // TODO
 
@@ -46,6 +50,8 @@ According to [Compatibility Table for ES5], IE9+ supports all ES5 features. It's
 - 2016-01-12 [Support for older versions of Internet Explorer ended on January 12th, 2016]
 - 2016-01-12 [Discontinuing IE 8 Support in React DOM]
 
+// TODO: Complete the timeline
+
 ## Contributing
 
 Any issue or pull requests are welcomed.
@@ -54,7 +60,6 @@ Any issue or pull requests are welcomed.
 
 - [Browser Specific Hacks]
 - [Compatibility Table for ES5]
-- [es5-shim]
 - https://en.wikipedia.org/wiki/Internet_Explorer_8
 - [jQuery 2.0 leaves behind the older Internet Explorer 6, 7, and 8 browsers]
 - [AngularJS 1.3 discontinues support for Internet Explorer 8]
@@ -65,7 +70,6 @@ Any issue or pull requests are welcomed.
 
 [Browser Specific Hacks]: https://css-tricks.com/snippets/css/browser-specific-hacks/
 [Compatibility Table for ES5]: http://kangax.github.io/compat-table/es5/
-[es5-shim]: https://github.com/es-shims/es5-shim
 [jQuery 2.0 leaves behind the older Internet Explorer 6, 7, and 8 browsers]: http://blog.jquery.com/2013/04/18/jquery-2-0-released/
 [AngularJS 1.3 discontinues support for Internet Explorer 8]: http://angularjs.blogspot.jp/2013/12/angularjs-13-new-release-approaches.html
 [Support for Windows XP ended April 8th, 2014]: https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support
