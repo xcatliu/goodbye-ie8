@@ -1,8 +1,29 @@
 # Goodbye IE8
 
-> As [more and more JavaScript frameworks and libraries dropped IE8 support](#timeline), It's time to say goodbye to IE8.
+> As [more and more JavaScript frameworks and libraries dropped IE8 support](#gravestone), It's time to say goodbye to IE8.
 
 Let's work together to promote the evolution of the browsers!
+
+## Gravestone
+
+![gravestone](http://xcatliu.github.io/goodbye-ie8/gravestone.jpg)
+
+> In Loving Memory Of WINDOWS INTERNET EXPLORER 8 (IE8)
+
+- 2006-03-?? IE8 development started
+- 2008-03-05 IE8 Beta 1 released
+- 2009-03-19 IE8 released
+- 2013-04-18 [jQuery 2.0 leaves behind the older Internet Explorer 6, 7, and 8 browsers]
+- 2013-12-15 [AngularJS 1.3 discontinues support for Internet Explorer 8]
+- 2014-04-08 [Support for Windows XP ended April 8th, 2014]
+- 2015-08-19 [Bootstrap v4 dropped IE8 support]
+- 2016-01-12 [Support for older versions of Internet Explorer ended on January 12th, 2016]
+- 2016-01-12 [Discontinuing IE 8 Support in React DOM]
+
+> Always in our thoughts
+> Forever in out hearts
+
+// TODO: Complete the gravestone
 
 ## What to Do
 
@@ -45,20 +66,6 @@ The [HTML5 Shiv](https://github.com/aFarkas/html5shiv) enables use of HTML5 sect
 ### 5. And else?
 
 // TODO
-
-## Timeline
-
-- 2006-03-?? IE8 development started
-- 2008-03-05 IE8 Beta 1 released
-- 2009-03-19 IE8 released
-- 2013-04-18 [jQuery 2.0 leaves behind the older Internet Explorer 6, 7, and 8 browsers]
-- 2013-12-15 [AngularJS 1.3 discontinues support for Internet Explorer 8]
-- 2014-04-08 [Support for Windows XP ended April 8th, 2014]
-- 2015-08-19 [Bootstrap v4 dropped IE8 support]
-- 2016-01-12 [Support for older versions of Internet Explorer ended on January 12th, 2016]
-- 2016-01-12 [Discontinuing IE 8 Support in React DOM]
-
-// TODO: Complete the timeline
 
 ## Contributing
 
