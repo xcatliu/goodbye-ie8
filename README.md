@@ -20,8 +20,7 @@ Let's work together to promote the evolution of the browsers!
 - 2016-01-12 [Support for older versions of Internet Explorer ended on January 12th, 2016]
 - 2016-01-12 [Discontinuing IE 8 Support in React DOM]
 
-> Always in our thoughts
->
+> Always in our thoughts  
 > Forever in out hearts
 
 // TODO: Complete the gravestone
