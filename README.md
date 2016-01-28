@@ -4,7 +4,7 @@
 
 Let's work together to promote the evolution of the browser!
 
-## What to do
+## What to Do
 
 ### 1. Add alert message for IE8 and lower users.
 
