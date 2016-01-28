@@ -18,7 +18,7 @@ Copy this code as the first child element of `<body>`:
 
 Preview what alert message will show on IE 8 and lower: http://xcatliu.github.io/goodbye-ie8
 
-(Code forked from https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html)
+(Code was forked from https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html)
 
 ### 2. Drop css hacks for IE8
 
