@@ -1,12 +1,14 @@
 # Goodbye IE8
 
-## Best Practice
+> As [more and more JavaScript frameworks and libraries dropped IE8 support](#Timeline), It's time to say goodbye to IE8.
 
-### 1. Remove ...
+Let's work together to promote the evolution of the browser!
 
-### 2. Add alert message for IE8 and lower users.
+## What to do
 
-Copy this code as the first child element of body:
+### 1. Add alert message for IE8 and lower users.
+
+Copy this code as the first child element of `<body>`:
 
 ```html
 <!--[if lt IE 9]>
@@ -15,6 +17,22 @@ Copy this code as the first child element of body:
 ```
 
 Preview what alert message will show on IE 8 and lower: http://xcatliu.github.io/goodbye-ie8
+
+(Code forked from https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html)
+
+### 2. Drop css hacks for IE8
+
+[CSS Hacks][Browser Specific Hacks] used to be an effective way to keep browsers looks good, now let's drop them.
+
+// TODO: try css preparser like sass or less with postcss plugins.
+
+### 3. Use ES5 features freely
+
+According to [Compatibility Table for ES5], IE9+ supports all ES5 features. It's safe to use them without [es5-shim]
+
+### 4. And else?
+
+// TODO
 
 ## Timeline
 
@@ -28,8 +46,15 @@ Preview what alert message will show on IE 8 and lower: http://xcatliu.github.io
 - 2016-01-12 [Support for older versions of Internet Explorer ended on January 12th, 2016]
 - 2016-01-12 [Discontinuing IE 8 Support in React DOM]
 
+## Contributing
+
+Any issue or pull requests are welcomed.
+
 ## References
 
+- [Browser Specific Hacks]
+- [Compatibility Table for ES5]
+- [es5-shim]
 - https://en.wikipedia.org/wiki/Internet_Explorer_8
 - [jQuery 2.0 leaves behind the older Internet Explorer 6, 7, and 8 browsers]
 - [AngularJS 1.3 discontinues support for Internet Explorer 8]
@@ -38,6 +63,9 @@ Preview what alert message will show on IE 8 and lower: http://xcatliu.github.io
 - [Support for older versions of Internet Explorer ended on January 12th, 2016]
 - [Discontinuing IE 8 Support in React DOM]
 
+[Browser Specific Hacks]: https://css-tricks.com/snippets/css/browser-specific-hacks/
+[Compatibility Table for ES5]: http://kangax.github.io/compat-table/es5/
+[es5-shim]: https://github.com/es-shims/es5-shim
 [jQuery 2.0 leaves behind the older Internet Explorer 6, 7, and 8 browsers]: http://blog.jquery.com/2013/04/18/jquery-2-0-released/
 [AngularJS 1.3 discontinues support for Internet Explorer 8]: http://angularjs.blogspot.jp/2013/12/angularjs-13-new-release-approaches.html
 [Support for Windows XP ended April 8th, 2014]: https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support
