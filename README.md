@@ -21,6 +21,7 @@ Let's work together to promote the evolution of the browsers!
 - 2016-01-12 [Discontinuing IE 8 Support in React DOM]
 
 > Always in our thoughts
+>
 > Forever in out hearts
 
 // TODO: Complete the gravestone
@@ -63,7 +64,7 @@ According to [Compatibility Table for ES5], IE9+ supports all ES5 features. It's
 
 The [HTML5 Shiv](https://github.com/aFarkas/html5shiv) enables use of HTML5 sectioning elements in IE8. It's not necessary now.
 
-### 5. And else?
+### 5. Anything else?
 
 // TODO
 
