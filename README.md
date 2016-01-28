@@ -8,7 +8,8 @@ Let's work together to promote the evolution of the browsers!
 
 ![gravestone](http://xcatliu.github.io/goodbye-ie8/gravestone.jpg)
 
-> In Loving Memory Of WINDOWS INTERNET EXPLORER 8 (IE8)
+> In Loving Memory Of  
+> WINDOWS INTERNET EXPLORER 8 (IE8)
 
 - 2006-03-?? IE8 development started
 - 2008-03-05 IE8 Beta 1 released
