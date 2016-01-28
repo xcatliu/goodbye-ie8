@@ -20,6 +20,14 @@ Preview what alert message will show on IE 8 and lower: http://xcatliu.github.io
 
 Code was forked from https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html
 
+中文版：
+
+```html
+<!--[if lt IE 9]>
+  <p style="text-align: center!important; margin: 0 0 0.5em!important; background-color: #d9534f!important; color: #fff!important; padding: 0.5em 1em!important;">您正在使用<strong>过时的</strong>浏览器，请<a style="color: #fff!important" href="http://browsehappy.com/">升级你的浏览器</a>获得更好的用户体验。</p>
+<![endif]-->
+```
+
 ### 2. Drop css hacks for IE8
 
 [CSS Hacks][Browser Specific Hacks] used to be an effective way to keep browsers looks good, now let's drop them.
