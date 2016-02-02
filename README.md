@@ -34,7 +34,7 @@ Copy this code as the first child element of `<body>`:
 
 ```html
 <!--[if lt IE 9]>
-  <p style="text-align: center!important; margin: 0 0 0.5em!important; background-color: #d9534f!important; color: #fff!important; padding: 0.5em 1em!important;">You are using an <strong>outdated</strong> browser. Please <a style="color: #fff!important" href="http://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience.</p>
+  <p style="text-align: center!important; margin: 0 0 0.5em!important; background-color: #d9534f!important; color: #fff!important; padding: 0.5em 1em!important;">You are using an <strong>outdated</strong> browser. Please <a style="color: #fff!important; text-decoration: underline!important;" href="http://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 ```
 
@@ -46,7 +46,7 @@ Code was forked from https://github.com/h5bp/html5-boilerplate/blob/master/src/i
 
 ```html
 <!--[if lt IE 9]>
-  <p style="text-align: center!important; margin: 0 0 0.5em!important; background-color: #d9534f!important; color: #fff!important; padding: 0.5em 1em!important;">您正在使用<strong>过时的</strong>浏览器，请<a style="color: #fff!important" href="http://browsehappy.com/">升级你的浏览器</a>获得更好的用户体验。</p>
+  <p style="text-align: center!important; margin: 0 0 0.5em!important; background-color: #d9534f!important; color: #fff!important; padding: 0.5em 1em!important;">您正在使用 <strong>过时的</strong> 浏览器，请 <a style="color: #fff!important; text-decoration: underline!important;" href="http://browsehappy.com/?locale=cn">升级你的浏览器</a> 获得更好的用户体验。</p>
 <![endif]-->
 ```
 
